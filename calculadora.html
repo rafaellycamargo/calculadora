@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+        <title>Calculadora</title>
+        <meta charset = "UTF-8">
+    </head>
+    <body>
+        <form action="calculadora.php" method="post">
+            <fieldset>
+                <legend>Calculadora</legend>
+                <p>
+                    <label>Digite um número</label>
+                    <input type ="number" name="num1"/>
+                </p>
+                <p>
+                    <label>Selecione um operador</label>
+                    <select name="oper">
+                        <option value="adi">+</option>
+                        <option value="sub">-</option>
+                        <option value="mult">*</option>
+                        <option value="div">/</option>
+                    </select>
+                </p>
+                <p>
+                        <label>Digite um número</label>
+                        <input type ="number" name="num2"/>
+                </p>
+                <p>
+                <input type="submit" value="Calcular"/>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
